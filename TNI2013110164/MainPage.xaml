@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TNI2013110164.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView>
+        <StackLayout BackgroundColor="LightBlue">
+            <Image Source="Home" />
+            <Picker x:Name="colorPicker" Title="Color">
+                <Picker.Items>
+                    <x:String>Green</x:String>
+                    <x:String>Red</x:String>
+                    <x:String>Yellow</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label
+                Margin="20"
+                FontSize="30"
+                HorizontalTextAlignment="Center"
+                Text="Jirapon" />
+            <Label
+                x:Name="yaLabel"
+                Margin="20"
+                FontSize="30"
+                HorizontalTextAlignment="Center" />
+            <Entry
+                x:Name="userEntry"
+                Keyboard="Default"
+                Placeholder="User" />
+            <Slider x:Name="aSlider" />
+            <Stepper
+                x:Name="aStepper"
+                Increment="1"
+                Maximum="10"
+                Minimum="0"
+                Value="0" />
+            <Switch x:Name="aSwitch" IsToggled="True" />
+            <Button x:Name="sendButton" Text="Send" />
+            <Entry Keyboard="Telephone" Placeholder="เบอร์โทร" />
+            <Button Text="Send" />
+            <SearchBar />
+            <ProgressBar Progress="0.5" ProgressColor="Blue" />
+            <ActivityIndicator IsRunning="True" />
+            <Frame CornerRadius="50">
+                <BoxView
+                    HeightRequest="100"
+                    HorizontalOptions="Fill"
+                    WidthRequest="100"
+                    Color="Red" />
+            </Frame>
+            <Editor HeightRequest="100" />
+            <DatePicker />
+            <TimePicker />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

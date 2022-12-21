@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TNI2013110164.EventPage3"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout BackgroundColor="Black">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <BoxView
+                Grid.Row="0"
+                Grid.ColumnSpan="4"
+                BackgroundColor="Black" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                BackgroundColor="Black"
+                Text="AC"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                BackgroundColor="Black"
+                Text="Del"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="2"
+                BackgroundColor="Black"
+                Text="%"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="3"
+                BackgroundColor="Black"
+                Text="/"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="0"
+                BackgroundColor="Black"
+                Text="7"
+                TextColor="White" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                BackgroundColor="Black"
+                Text="8"
+                TextColor="White" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="2"
+                BackgroundColor="Black"
+                Text="9"
+                TextColor="White" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="3"
+                BackgroundColor="Black"
+                Text="X"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="0"
+                BackgroundColor="Black"
+                Text="4"
+                TextColor="White" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="1"
+                BackgroundColor="Black"
+                Text="5"
+                TextColor="White" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="2"
+                BackgroundColor="Black"
+                Text="6"
+                TextColor="White" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="3"
+                BackgroundColor="Black"
+                Text="-"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="0"
+                BackgroundColor="Black"
+                Text="1"
+                TextColor="White" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="1"
+                BackgroundColor="Black"
+                Text="2"
+                TextColor="White" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="2"
+                BackgroundColor="Black"
+                Text="3"
+                TextColor="White" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="3"
+                BackgroundColor="Black"
+                Text="+"
+                TextColor="Orange" />
+            <Button
+                Grid.Row="5"
+                Grid.Column="1"
+                BackgroundColor="Black"
+                Text="0"
+                TextColor="White" />
+            <Button
+                Grid.Row="5"
+                Grid.Column="2"
+                BackgroundColor="Black"
+                Text="."
+                TextColor="White" />
+            <Button
+                Grid.Row="5"
+                Grid.Column="3"
+                BackgroundColor="Black"
+                Text="="
+                TextColor="Orange" />
+        </Grid>
+    </StackLayout>
+</ContentPage>
